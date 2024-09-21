@@ -1,7 +1,7 @@
 # rtdetr_rust
 2024 SOTA object detector inference using Rust + Ort
 
-![](asserts/demo.png)
+![](demo.png)
 
 Currently, I only test ONNX-runtime with CPU backend, without optimization. The latency (including image resize and neural network inference) is about 565ms.
 
